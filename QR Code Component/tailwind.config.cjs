@@ -6,7 +6,23 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontSize: {
+      "15px": ['15px', {
+        fontWeight: '700'
+      }],
+      "13px": ['13px', {
+        fontWeight: '400'
+      }]
+    },
+    fontFamily: {
+      'outfit': ['Outfit', 'sans-serif']
+    },
+   
+    extend: { 
+      colors: {
+      'Grayish-blue': 'hsl(220, 15%, 55%)',
+      'Dark-blue': 'hsl(218, 44%, 22%)'
+    },},
   },
   plugins: [],
 }
