@@ -1,5 +1,5 @@
 import React from 'react'
-import QrCode from "../../../images/image-qr-code.png"
+import QrCode from "../images/image-qr-code.png"
 
 const QR = () => {
     return (
