@@ -8,10 +8,12 @@ module.exports = {
   theme: {
     fontSize: {
       "15px": ['15px', {
-        fontWeight: '700'
+        fontWeight: '700',
+        lineHeight: '1.2rem'
       }],
-      "13px": ['13px', {
-        fontWeight: '400'
+      "11px": ['11px', {
+        fontWeight: '400',
+        lineHeight: '.8rem'
       }]
     },
     fontFamily: {
